@@ -14,8 +14,21 @@ print(califas)
 print("Dimension : ", califas.ndim)
 print(" ----- ej 2 dimensiones de un array -----")
 califas=np.array([
-    [60,70,90]
+    [60,70,90],
     [50,89,96]
-])
+])# un arreglo de 2 dimensiones es como una tabla de excel
+print(califas)
+print("Dimension : ", califas.ndim)
+print(" ----- ej 3 dimensiones de un array -----")
+califas=np.array([
+    [
+    [60,70,90],
+    [50,89,96]
+    ],
+    [
+    [60,70,90],
+    [50,89,96]
+    ]
+])# un arreglo de 2 dimensiones es como una tabla de excel
 print(califas)
 print("Dimension : ", califas.ndim)
